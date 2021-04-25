@@ -1,0 +1,125 @@
+header {
+    background-color: #FFFFF4;
+}
+
+main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-item {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+
+.top-header {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #363958;
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.top-header-special {
+    color: #76C27E;
+}
+
+.top-text {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+
+.backpack-card-title {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #363958;
+}
+
+.backpack-card-text {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 26px;
+    color: #3E3E3E;
+}
+
+.card-price {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #76C27E;
+}
+
+.card-button {
+    background-color: #2A1E59;
+    width: 170px;
+    height: 60px;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-head {
+    font-family: 'Bebas Neue',
+        cursive;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #363958;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+
+    .shopping,
+    .cards {
+        display: none;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card-head {
+        text-align: center;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    footer {
+        display: block;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .mobile-view {
+        display: none;
+        text-align: center;
+    }
+}
